@@ -1,0 +1,459 @@
+:root {
+  --primary-color: #2d3da8;
+  --accent-color: #f97316;
+  --light-bg: #fafafe;
+  --dark-text: #1e293b;
+  --gray-text: #64748b;
+  --white-text: #f8fafc;
+  --border-color: #e5e7eb;
+  --topic-color: #09131a;
+}
+
+.about-section1 {
+  margin-top: 4.2em;
+  background-image:
+    linear-gradient(#1d2862d1),
+    url("https://scontent.flos2-2.fna.fbcdn.net/v/t39.30808-6/489649855_1115476593717191_7699162933726793485_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=D89Lxg5e3_MQ7kNvwE5Zzku&_nc_oc=AdpC4GqeIu5LevtCDdaGYhYiswpaZh-NiypUwBIJmjyCAP3sOD9Oc29LZ6G4PHGsnf4&_nc_zt=23&_nc_ht=scontent.flos2-2.fna&_nc_gid=EGLw3COSOXHLqIXjlSbOeQ&_nc_ss=7b289&oh=00_Af6otZNgMhWhC2r8uenvU-86ybLhv4pE4g_J7T0ilF4O8Q&oe=6A17FD44");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 6em 1em;
+}
+
+.icon {
+  color: oklch(0.72 0.18 50);
+  font-size: 2.3em;
+  margin-top: 3em;
+  margin-bottom: 0.7em;
+}
+
+.about-section1 h1 {
+  color: var(--white-text);
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 2.4em;
+  margin-bottom: 0.5em;
+}
+
+.about-section1 h3 {
+  color: rgba(248, 250, 252, 0.85);
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0.3em;
+}
+
+.about-section2 {
+  background: var(--border-color);
+  padding: 4em 0.9em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.who-we-are {
+  font-size: 0.9em;
+  color: var(--primary-color);
+  margin-bottom: 1em;
+}
+
+.about-section2 h2 {
+  font-size: 2.8em;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: var(--topic-color);
+  margin-bottom: 0.7em;
+}
+
+.school-principle {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.principle {
+  border-top: var(--primary-color) 5px solid;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5em 1em;
+  border-radius: 12px;
+  background: var(--light-bg);
+  align-items: start;
+}
+
+.principle-icon {
+  color: var(--primary-color);
+  background: var(--border-color);
+  font-size: 1.8em;
+  padding: 0.3em;
+  border-radius: 10px;
+  margin-bottom: 0.6em;
+}
+
+.mission {
+  color: var(--topic-color);
+  font-size: 1.5em;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 0.8em;
+}
+
+.principle-content {
+  color: var(--gray-text);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+}
+
+.about-section3 {
+  background: var(--light-bg);
+  padding: 4em 1em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-section3-img {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 18px;
+}
+
+.about-section3-img img {
+  object-fit: cover;
+  border-radius: inherit;
+  width: inherit;
+}
+
+.about-section3-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: left;
+}
+
+.about-section3-content h2 {
+  margin-top: 2.4em;
+  font-size: 1em;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 1em;
+  color: var(--primary-color);
+}
+
+.about-section3-content h3 {
+  font-size: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--topic-color);
+  margin-bottom: 0.8em;
+}
+
+.about-section3-content p {
+  font-size: 1.2em;
+  color: var(--gray-text);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0.8em;
+}
+
+.about-section4 {
+  background: var(--border-color);
+  padding: 3em 0.7em;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-section4 h2 {
+  margin: 0 auto;
+  font-size: 1em;
+  color: var(--primary-color);
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.about-section4 h3 {
+  margin: 0 auto;
+  margin-top: 0.4em;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--topic-color);
+  margin-bottom: 0.6em;
+}
+
+.timeline {
+  list-style: none;
+  padding-left: 2em;
+  position: relative;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--primary-color);
+}
+
+.timeline li {
+  position: relative;
+  margin-bottom: 2em;
+  padding-left: 1.5em;
+}
+
+.year {
+  font-weight: bold;
+  color: var(--topic-color);
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0.3em;
+}
+
+.year::before {
+  content: "";
+  position: absolute;
+  left: -1.6em;
+  top: 0.35em;
+  width: 10px;
+  height: 10px;
+  background: var(--primary-color);
+  border-radius: 50%;
+}
+
+.myP {
+  margin: 0;
+  color: var(--gray-text);
+  font-size: 0.95rem;
+}
+
+.about-section5 {
+  background-color: #f1f1f5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em 1em;
+}
+
+.about-section5 h2 {
+  color: var(--primary-color);
+  font-size: 1.1em;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 0.4em;
+}
+
+.about-section5 h3 {
+  color: var(--topic-color);
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-section5 p {
+  color: var(--gray-text);
+  margin-top: 0.6em;
+}
+
+.teacher-display {
+  padding: 2em 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+
+.containTeacherInfo {
+  width: 22em; /* fixed card size = stable layout */
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* IMAGE FIX */
+.teacher-image {
+  width: 100%;
+  height: 14.4em;
+  overflow: hidden;
+}
+
+.teacher-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.containTeacherInfo h4 {
+  color: var(--topic-color);
+  font-size: 1.25rem;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  margin-top: 1em;
+  margin-left: 0.9em;
+  margin-bottom: 0.3em;
+}
+
+.containTeacherInfo h3 {
+  color: var(--primary-color);
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  margin-left: 1.3em;
+  margin-bottom: 0.8em;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.containTeacherInfo p {
+  color: var(--gray-text);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  padding: 0 1.2em 1.8em;
+}
+
+.about-section6 {
+  background: var(--border-color);
+  padding: 4em 3em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about-section6 h2 {
+  color: var(--topic-color);
+  font-size: 2.3em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-section6 p {
+  color: var(--gray-text);
+  margin-top: 0.8em;
+}
+
+.contain-section6-btn {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.last-2btn {
+  background: var(--primary-color);
+  color: var(--white-text);
+  border: none;
+  padding: 1em 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 6px;
+}
+
+.last-1btn {
+  color: var(--dark-text);
+  background: var(--light-bg);
+  border: none;
+  padding: 1em 2em;
+  border-radius: 6px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+@media (min-width: 900px) {
+  .school-principle {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .principle {
+    width: 35%;
+  }
+
+  .about-section3 {
+    flex-direction: row;
+    gap: 2em;
+  }
+
+  .about-section3-img {
+    width: 100%;
+    margin-top: 4em;
+  }
+
+  .about-section3-content {
+    width: 90%;
+  }
+
+  .about-section4 {
+    padding-left: 2em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .teacher-display {
+    width: 100%;
+  }
+
+  .containTeacherInfo {
+    width: 30%;
+  }
+
+  .containTeacherInfo img {
+    height: 20em;
+  }
+}
+
+.section-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media(min-width: 320px){
+    .about-section2 h2{
+        font-size: 1.8em;
+    }
+
+    .about-section6{
+        padding: 4em 1em;
+    }
+
+    .about-section6 h2{
+        font-size: 2em;
+    }
+
+    .contain-section6-btn{
+        flex-direction: column;
+    }
+
+    .last-1btn{
+        padding: 1.5em 6.5em;
+        font-size: 1em;
+    }
+    
+    .last-2btn{
+        padding: 1.5em 3.6em;
+        font-size: 1em;
+    }
+}
+
+@media(min-width: 768px){
+  .contain-section6-btn{
+    flex-direction: row;
+    gap: 2em;
+  }
+}

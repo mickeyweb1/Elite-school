@@ -1,0 +1,293 @@
+:root {
+  --primary-color: #2d3da8;
+  --accent-color: #f97316;
+  --light-bg: #fafafe;
+  --dark-text: #1e293b;
+  --gray-text: #64748b;
+  --white-text: #f8fafc;
+  --border-color: #e5e7eb;
+  --topic-color: #09131a;
+}
+
+/* PAGE */
+
+.admissions-page {
+  width: 100%;
+  overflow-x: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  padding: 8em 1em 5em;
+
+  background: #f1f5f9;
+}
+
+/* HEADER */
+
+.enroll {
+  color: var(--primary-color);
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.8em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.admissions-page h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  color: var(--topic-color);
+  margin-bottom: 0.4em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.under-admiss-appli {
+  width: 100%;
+  max-width: 648px;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: var(--gray-text);
+  margin-bottom: 2em;
+}
+
+/* CONTAINER */
+
+.contain-all-application-info {
+  width: 100%;
+  max-width: 800px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.3em;
+}
+
+/* CARDS */
+
+.child-information,
+.parent-guardian-section,
+.addition {
+  background: white;
+
+  border-radius: 14px;
+
+  padding: 1.3em;
+
+  border: 1px solid #e2e8f0;
+
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+
+  display: flex;
+  flex-direction: column;
+  padding-top: 3em;
+  padding-bottom: 3em;
+
+  text-align: left;
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.child-information:hover,
+.parent-guardian-section:hover,
+.addition:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* CARD TITLES */
+
+.child-information > h2,
+.parent-guardian-section > h2,
+.addition h1 {
+  display: flex;
+  align-items: center;
+
+  gap: 0.5em;
+
+  font-size: 1rem;
+
+  color: var(--primary-color);
+
+  margin-bottom: 1em;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* INPUT GROUPS */
+
+.first-last-name,
+.date-gender,
+.name-relation-to-child,
+.email-phone-info,
+.medical-addition {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+
+  gap: 0.9em;
+  margin-bottom: 1em;
+}
+
+/* LABELS */
+
+.name,
+.gender,
+.grade-select,
+.relation-child {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.35em;
+}
+
+.name label,
+.gender label,
+.grade-select label,
+.relation-child label {
+  font-size: 0.9rem;
+
+  font-weight: 600;
+
+  color: var(--topic-color);
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* INPUTS */
+
+.all-input,
+.date-stuff,
+.gender select,
+.grade-select select,
+.relation-child select,
+textarea {
+  width: 100%;
+
+  padding: 0.9em 1em;
+
+  border-radius: 10px;
+
+  border: 1px solid #cbd5e1;
+
+  outline: none;
+
+  background: white;
+
+  font-size: 0.95rem;
+
+  transition: 0.3s ease;
+}
+
+/* INPUT FOCUS */
+
+.all-input:focus,
+.date-stuff:focus,
+.gender select:focus,
+.grade-select select:focus,
+.relation-child select:focus,
+textarea:focus {
+  border: 1px solid var(--primary-color);
+
+  box-shadow: 0 0 0 3px rgba(45, 61, 168, 0.1);
+}
+
+/* PLACEHOLDER */
+
+.all-input::placeholder,
+textarea::placeholder {
+  color: #94a3b8;
+}
+
+/* TEXTAREA */
+
+textarea {
+  min-height: 120px;
+
+  resize: none;
+
+  margin-top: 0.3em;
+}
+
+/* ADDITIONAL SECTION */
+
+.medical h2,
+.notes h2 {
+  font-size: 0.95rem;
+
+  margin-bottom: 0.5em;
+
+  color: var(--topic-color);
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BUTTON */
+
+#btn {
+  width: 100%;
+
+  margin-top: 1.5em;
+
+  border: none;
+
+  background: var(--primary-color);
+
+  color: white;
+
+  padding: 1em;
+
+  border-radius: 12px;
+
+  font-size: 1rem;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+#btn:hover {
+  opacity: 0.9;
+}
+
+/* SMALL PHONE */
+
+@media (max-width: 375px) {
+  .admissions-page {
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+  }
+
+  .admissions-page h1 {
+    font-size: 1.8rem;
+  }
+
+  .under-admiss-appli {
+    font-size: 0.88rem;
+  }
+
+}
+
+/* DESKTOP */
+
+@media (min-width: 676px) {
+  .first-last-name,
+  .date-gender,
+  .name-relation-to-child,
+  .email-phone-info {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+
+  .name,
+  .gender,
+  .relation-child {
+    flex: 1;
+  }
+}
+
+

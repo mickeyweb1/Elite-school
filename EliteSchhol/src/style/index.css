@@ -1,0 +1,147 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+  background: #fafafe;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.school-name-dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.school-logo{
+  width: 2.4em;
+}
+
+.school-name-dropdown h1 {
+  color: #2d3da8;
+  font-size: 1.3rem;
+}
+
+.show-nav {
+  border: none;
+  background: transparent;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #334155;
+}
+
+.main-dropdown {
+  margin-top: 1rem;
+}
+
+.nav-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.nav-ul li {
+  width: 100%;
+}
+
+.nav-ul a {
+  text-decoration: none;
+  color: #1e293b;
+  display: block;
+  padding: 0.9rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.nav-ul a:hover {
+  background: #e2e8f0;
+}
+
+.active-tab {
+  background: #2d3da8;
+  color: white !important;
+}
+
+/* DESKTOP */
+@media (min-width: 900px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: .8rem 3rem;
+  }
+
+  .show-nav {
+    display: none;
+  }
+
+  .main-dropdown {
+    display: flex !important;
+    margin-top: 0;
+  }
+
+  .nav-ul {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .nav-ul a {
+    padding: 0.7rem 1rem;
+  }
+}
+
+.main-dropdown {
+  display: none;
+}
+
+.show-menu {
+  display: block;
+}
+
+.school-title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.school-logo {
+  width: 2.7rem;
+  height: 2.7rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* hide text on phone */
+.school-text {
+  display: none;
+}
+
+/* show text on tablet/laptop */
+@media (min-width: 768px) {
+  .school-text {
+    display: block;
+    font-size: 1.1rem;
+    color: #2d3da8;
+    font-weight: 700;
+  }
+}
