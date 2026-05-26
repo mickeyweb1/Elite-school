@@ -85,7 +85,7 @@ export default function About() {
       <div className="about-section3">
         <div className="about-section3-img">
           <img
-            src="https://scontent.flos3-1.fna.fbcdn.net/v/t39.30808-6/520120208_1204010354863814_4569978460488704689_n.jpg?stp=dst-jpg_s590x590_tt6&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MeSBuiQTlW0Q7kNvwGDAT8p&_nc_oc=AdoGAcEa7tpkcMyM1Cauyn6qonJS2OmZkDVCLjhJ9829UusD0npsKU-H-6PQqBoVxqs&_nc_zt=23&_nc_ht=scontent.flos3-1.fna&_nc_gid=Yt4C6xVCle_EMqjl2IipEg&_nc_ss=7b289&oh=00_Af6Pk56gKij-ycxwZ4i0QU4LVf8dkt5beMWHxTY-d8vK6A&oe=6A0FC176"
+            src="images/cultural.jpg"
             alt="Adult and children learning"
           />
         </div>
