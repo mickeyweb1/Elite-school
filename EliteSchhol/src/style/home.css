@@ -33,7 +33,7 @@ button {
 .section1 {
   background-image:
     linear-gradient(rgb(30, 40, 100, 0.82)),
-    url("images/execution6.jpg");
+    url("/images/execution6.jpg");
   background-size: cover;
   background-position: center;
   padding: 2em 3em;

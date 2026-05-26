@@ -85,7 +85,7 @@ export default function About() {
       <div className="about-section3">
         <div className="about-section3-img">
           <img
-            src="images/cultural.jpg"
+            src="/images/cultural.jpg"
             alt="Adult and children learning"
           />
         </div>

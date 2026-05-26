@@ -4,152 +4,152 @@ export default function Gallery() {
     {
       event: "Execution",
       image:
-        "images/execution1.jpg",
+        "/images/execution1.jpg",
     },
     {
       event: "Execution",
       image:
-        "images/execution2.jpg",
+        "/images/execution2.jpg",
     },
     {
       event: "Execution",
       image:
-        "images/execution3.jpg",
+        "/images/execution3.jpg",
     },
     {
       event: "Execution",
       image:
-        "images/execution4.jpg",
+        "/images/execution4.jpg",
     },
     {
       event: "Execution",
       image:
-        "images/execution5.jpg",
+        "/images/execution5.jpg",
     },
     {
       event: "Student",
       image:
-        "images/student1.jpg",
+        "/images/student1.jpg",
     },
     {
       event: "Student",
       image:
-        "images/student2.jpg",
+        "/images/student2.jpg",
     },
     {
       event: "Student",
       image:
-        "images/student3.jpg",
+        "/images/student3.jpg",
     },
     {
       event: "Student",
       image:
-        "images/student4.jpg",
+        "/images/student4.jpg",
     },
     {
       event: "Student",
       image:
-        "images/student5.jpg",
+        "/images/student5.jpg",
     },
     {
       event: "Teacher",
       image:
-        "images/teacher1.jpg",
+        "/images/teacher1.jpg",
     },
     {
       event: "Student",
       image:
-        "images/student6.jpg",
+        "/images/student6.jpg",
     },
     {
       event: "Students",
       image:
-        "images/students1.jpg",
+        "/images/students1.jpg",
     },
     {
       event: "Student",
       image:
-        "images/student8.jpg",
+        "/images/student8.jpg",
     },
     {
       event: "Graduated Student",
       image:
-        "images/gratua1.jpg",
+        "/images/gratua1.jpg",
     },
     {
       event: "Students",
       image:
-        "images/students2.jpg",
+        "/images/students2.jpg",
     },
     {
       event: "Teacher",
       image:
-        "images/teacher.jpg",
+        "/images/teacher.jpg",
     },
     {
       event: "Cultural Day",
       image:
-        "images/cultural.jpg",
+        "/images/cultural.jpg",
     },
     {
       event: "Cultural Day",
       image:
-        "images/cultural2.jpg",
+        "/images/cultural2.jpg",
     },
     {
       event: "Graduated Student",
       image:
-        "images/gratua2.jpg",
+        "/images/gratua2.jpg",
     },
     {
       event: "Execution",
       image:
-        "images/execution6.jpg",
+        "/images/execution6.jpg",
     },
     {
       event: "Execution",
       image:
-        "images/execution7.jpg",
+        "/images/execution7.jpg",
     },
     {
       event: "Graduated Student",
       image:
-        "images/gratua3.jpg",
+        "/images/gratua3.jpg",
     },
     {
       event: "Graduated Student",
       image:
-        "images/gratua4.jpg",
+        "/images/gratua4.jpg",
     },
     {
       event: "Execution",
       image:
-        "images/execution8.jpg",
+        "/images/execution8.jpg",
     },
     {
       event: "Execution",
       image:
-        "images/execution9.jpg",
+        "/images/execution9.jpg",
     },
     {
       event: "Execution",
       image:
-        "images/execution10.jpg",
+        "/images/execution10.jpg",
     },
     {
       event: "Execution",
       image:
-        "images/student8.jpg",
+        "/images/student8.jpg",
     },
     {
       event: "Teacher",
       image:
-        "images/teacher2.jpg",
+        "/images/teacher2.jpg",
     },
     {
       event: "Teacher",
       image:
-        "images/teacher3.jpg",
+        "/images/teacher3.jpg",
     },
   ];
 
