@@ -20,11 +20,11 @@ export default function LastSection(){
 <div className="third">
         <h2>Contact</h2>
         <h3>123 Academy Road, Springfield</h3>
-        <h3>info@brightfieldacademy.edu</h3>
+        <h3>info@elitefoundation.edu</h3>
         <h3>+234 706-264-0714</h3>
         </div>
 
-        <h4>© 2026 Brightfield Academy. All rights reserved.</h4>
+        <h4>© 2026 Elite Foundation. All rights reserved.</h4>
       </div>
     )
 }
