@@ -51,7 +51,7 @@ const handleSubmit = () => {
       <h1>Admissions Application</h1>
 
       <p className="under-admiss-appli">
-        Fill in the form below to apply for enrollment at Brightfield Academy.
+        Fill in the form below to apply for enrollment at Elite Foundation.
         We'll be in touch shortly.
       </p>
 
@@ -155,7 +155,6 @@ const handleSubmit = () => {
             <input
               className="all-input"
               type="text"
-              placeholder="e.g. Petra School Ota"
             />
 
           </div>
