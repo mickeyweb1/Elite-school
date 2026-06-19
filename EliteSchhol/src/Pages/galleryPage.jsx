@@ -2,27 +2,27 @@ import "../style/gallery.css";
 export default function Gallery() {
   const allInfo = [
     {
-      event: "Execution",
+      event: "Excursion",
       image:
         "/images/execution1.jpg",
     },
     {
-      event: "Execution",
+      event: "Excursion",
       image:
         "/images/execution2.jpg",
     },
     {
-      event: "Execution",
+      event: "Excursion",
       image:
         "/images/execution3.jpg",
     },
     {
-      event: "Execution",
+      event: "Excursion",
       image:
         "/images/execution4.jpg",
     },
     {
-      event: "Execution",
+      event: "Excursion",
       image:
         "/images/execution5.jpg",
     },
@@ -102,12 +102,12 @@ export default function Gallery() {
         "/images/gratua2.jpg",
     },
     {
-      event: "Execution",
+      event: "Excursion",
       image:
         "/images/execution6.jpg",
     },
     {
-      event: "Execution",
+      event: "Excursion",
       image:
         "/images/execution7.jpg",
     },
@@ -122,22 +122,22 @@ export default function Gallery() {
         "/images/gratua4.jpg",
     },
     {
-      event: "Execution",
+      event: "Excursion",
       image:
         "/images/execution8.jpg",
     },
     {
-      event: "Execution",
+      event: "Excursion",
       image:
         "/images/execution9.jpg",
     },
     {
-      event: "Execution",
+      event: "Excursion",
       image:
         "/images/execution10.jpg",
     },
     {
-      event: "Execution",
+      event: "Excursion",
       image:
         "/images/student8.jpg",
     },
