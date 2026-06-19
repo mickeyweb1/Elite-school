@@ -19,7 +19,7 @@ export default function Home() {
         </p>
 
         <div className="section1-btn">
-            <NavLink to="/admissions" className="first-btn" >Applay for Admission</NavLink>
+            <NavLink to="/admissions" className="first-btn" >Apply for Admission</NavLink>
             <NavLink to="/gallery" className="second-btn">View Gallery</NavLink>
         </div>
       </div>
@@ -213,7 +213,7 @@ export default function Home() {
         <h3>Ready to Join Our Family?</h3>
         <p>
           Enrollment is now open for the upcoming academic year. Secure your
-          child's place at Brighfield Academy today.
+          child's place at Elite Foundation today.
         </p>
         <button className="start-application-btn">Start Application</button>
       </div>
