@@ -22,7 +22,7 @@ export default function About() {
     {
       icon: <FaRegStar />,
       purpose: "Our Values",
-      text: "Integrity, excellence, compassion, creativity, and respect form the foundation of everything we do at Brightfield Academy.",
+      text: "Integrity, excellence, compassion, creativity, and respect form the foundation of everything we do at Elite Foundation.",
     },
   ];
 
@@ -94,7 +94,7 @@ export default function About() {
           <h2>OUR STORY</h2>
           <h3>From Humble Beginnings</h3>
           <p>
-            Brightfield Academy was founded in 2005 by a group of passionate
+            Elite Foundation was founded in 2005 by a group of passionate
             educators who believed every child deserved a world-class education.
             Starting with just 120 students and a handful of dedicated teachers,
             we've grown into one of the most respected schools in the region.
@@ -116,7 +116,7 @@ export default function About() {
         <ul className="timeline">
           <li>
             <span className="year">2005</span>
-            <p className="myP">Brightfield Academy founded with 120 students</p>
+            <p className="myP">Elite Foundation founded with 120 students</p>
           </li>
 
           <li>
@@ -152,7 +152,7 @@ export default function About() {
 
       <div className="about-section6">
         <h2>Become Part of Our Story</h2>
-        <p>We'd love to welcome your family into the Brightfield community. Apply today or reach out with any questions.</p>
+        <p>We'd love to welcome your family into the Elite community. Apply today or reach out with any questions.</p>
 
         <div className="contain-section6-btn">
           <NavLink to="/admissions">
