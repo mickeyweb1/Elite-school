@@ -23,7 +23,7 @@ export default function Contact() {
     {
       icon: <FaEnvelope />,
       title: "EMAIL",
-      text: "info@brightfieldacademy.edu",
+      text: "info@elitefoundation.edu",
     },
 
     {
@@ -38,7 +38,7 @@ export default function Contact() {
       <h1>GET IN TOUCH</h1>
       <h2>Contact Us</h2>
       <p className="first-p">
-        Have a question or want to learn more about Brightfield Academy? We'd
+        Have a question or want to learn more about Elite Foundation? We'd
         love to hear from you.
       </p>
 

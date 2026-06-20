@@ -19,7 +19,7 @@ export default function Home() {
         </p>
 
         <div className="section1-btn">
-            <NavLink to="/admissions" className="first-btn" >Applay for Admission</NavLink>
+            <NavLink to="/admissions" className="first-btn" >Apply for Admission</NavLink>
             <NavLink to="/gallery" className="second-btn">View Gallery</NavLink>
         </div>
       </div>

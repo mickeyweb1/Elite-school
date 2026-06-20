@@ -22,7 +22,7 @@ function NavBar() {
         <button className="show-nav" onClick={() => setShowMenu(!showMenu)}>
           ☰
         </button>
-        <button style={{ display: "none" }}>X</button>
+        <button style={{display: "none"}}>X</button>
       </div>
 
       <div className={`main-dropdown ${showMenu ? "show-menu" : ""}`}>
